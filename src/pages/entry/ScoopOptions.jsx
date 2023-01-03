@@ -13,7 +13,6 @@ export default function ScoopOptions({ name, imagePath }) {
         src={`http://localhost:3030/${imagePath}`}
         alt={`${name} scoop`}
       />
-
       <Form.Group
         controlId={`${name}-count`}
         as={Row}
