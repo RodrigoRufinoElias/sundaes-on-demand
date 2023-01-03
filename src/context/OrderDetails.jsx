@@ -30,7 +30,7 @@ export function OrderDetailsProvider(props) {
     newOptionCounts[optionType][itemName] = newItemCount;
 
     // update the state w/ the updated copy
-    setOptionCounts(newItemCount);
+    setOptionCounts(newOptionCounts);
   }
 
   function resetOrder() {

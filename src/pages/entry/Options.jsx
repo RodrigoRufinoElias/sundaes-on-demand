@@ -4,7 +4,7 @@ import Row from "react-bootstrap/Row";
 import ScoopOptions from "./ScoopOptions";
 import ToppingOptions from "./ToppingOption";
 import AlertBanner from "../common/AlertBanner";
-import { pricePerItem } from "../constants";
+import { pricePerItem } from "../../constants";
 import { formatCurrency } from "../../utilities";
 import { useOrderDetails } from "../../context/OrderDetails";
 

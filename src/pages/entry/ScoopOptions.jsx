@@ -23,7 +23,11 @@ export default function ScoopOptions({ name, imagePath }) {
           {name}
         </Form.Label>
         <Col xs="5" style={{ textAlign: "left" }}>
-          <Form.Control type="nuber" defaultValue={0} onChange={handleChange} />
+          <Form.Control
+            type="number"
+            defaultValue={0}
+            onChange={handleChange}
+          />
         </Col>
       </Form.Group>
     </Col>
